@@ -1,0 +1,14 @@
+{
+  "name": "webrtc-video-streamer",
+  "private": true,
+  "version": "0.1.0",
+  "workspaces": [
+    "client",
+    "server"
+  ],
+  "scripts": {
+    "build": "npm run build -w client",
+    "start": "node server/index.js",
+    "dev": "node server/index.js"
+  }
+}
